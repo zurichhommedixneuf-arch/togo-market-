@@ -27,3 +27,4 @@
 .myprod-item button{border:0;background:none;color:#d95353;font-size:11px;font-weight:800;cursor:pointer}
 #addProductForm{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
 #prodPreview img{width:70px;height:70px;object-fit:cover;border-radius:8px;margin-top:6px}
+.install-btn{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;z-index:80;background:var(--green);color:#fff;border:0;padding:12px 20px;border-radius:30px;font-weight:800;font-size:13px;box-shadow:0 12px 30px rgba(8,115,74,.35);cursor:pointer}

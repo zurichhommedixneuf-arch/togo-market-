@@ -60,4 +60,9 @@ document.getElementById('viewMyShop').onclick=()=>{if(!window.tmUser)return;clos
 document.getElementById('openAddProduct').onclick=()=>{document.getElementById('addProductForm').style.display='block'};
 
 renderProducts();renderStores();saveCart();
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})});}
+let deferredInstall=null;
+window.addEventListener('beforeinstallprompt',(e)=>{e.preventDefault();deferredInstall=e;document.getElementById('installBtn').style.display='block'});
+document.getElementById('installBtn').onclick=async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;document.getElementById('installBtn').style.display='none'};
+window.addEventListener('appinstalled',()=>{document.getElementById('installBtn').style.display='none'});
 

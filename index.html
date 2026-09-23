@@ -23,13 +23,80 @@
 <section class="section" id="categories"><div class="section-head"><div><span class="kicker">EXPLORER</span><h2>Que cherchez-vous aujourd'hui ?</h2></div><a href="#produits">Voir tout →</a></div><div class="catgrid">
 <button class="cat cat-tech" data-cat="electronics"><span>📱</span><b>Électronique</b><small>Smartphones · TV · Audio</small></button><button class="cat cat-fashion" data-cat="fashion"><span>👟</span><b>Mode</b><small>Vêtements · Chaussures · Accessoires</small></button><button class="cat cat-home" data-cat="home"><span>🛋️</span><b>Maison</b><small>Meubles · Cuisine · Déco</small></button><button class="cat cat-computing" data-cat="computing"><span>💻</span><b>Informatique</b><small>PC · Accessoires · Réseaux</small></button><button class="cat cat-real" data-cat="realestate"><span>🏠</span><b>Immobilier</b><small>Terrains · Maisons · Locations</small></button></div></section>
 <section class="section soft" id="produits"><div class="section-head"><div><span class="kicker">POUR VOUS</span><h2>Produits populaires</h2></div><div class="filters"><button class="filter active" data-sort="popular">Populaires</button><button class="filter" data-sort="priceAsc">Prix ↑</button><button class="filter" data-sort="priceDesc">Prix ↓</button></div></div><div id="productGrid" class="product-grid"></div></section>
-<section class="section" id="boutiques"><div class="section-head"><div><span class="kicker">VENDEURS</span><h2>Boutiques à découvrir</h2></div><a href="#vendre">Devenir vendeur →</a></div><div class="store-grid"><article class="store"><div class="store-cover c1"></div><div class="store-body"><div class="avatar">TK</div><div><b>Tech Kpalimé</b><small>Électronique · Lomé</small></div><span class="verified">✓</span></div></article><article class="store"><div class="store-cover c2"></div><div class="store-body"><div class="avatar">MA</div><div><b>Maison & Ambiance</b><small>Maison · Agoè</small></div><span class="verified">✓</span></div></article><article class="store"><div class="store-cover c3"></div><div class="store-body"><div class="avatar">ST</div><div><b>Style Togo</b><small>Mode · Lomé</small></div><span class="verified">✓</span></div></article><article class="store"><div class="store-cover c4"></div><div class="store-body"><div class="avatar">DI</div><div><b>Digital House</b><small>Informatique · Lomé</small></div><span class="verified">✓</span></div></article></div></section>
+<section class="section" id="boutiques"><div class="section-head"><div><span class="kicker">VENDEURS</span><h2>Boutiques à découvrir</h2></div><a href="#vendre">Devenir vendeur →</a></div><div class="store-grid" id="storeGrid"></div></section>
 <section class="seller" id="vendre"><div><span class="kicker">POUR LES ENTREPRISES</span><h2>Votre boutique. Votre marque.<br>Vos clients.</h2><p>Créez votre espace vendeur sur TOGO MARKET, publiez vos produits et recevez des commandes depuis une seule plateforme.</p><div class="seller-points"><span>✓ Votre boutique personnalisée</span><span>✓ Gestion des produits et du stock</span><span>✓ Commandes et clients</span><span>✓ Visibilité auprès des acheteurs</span></div><button class="btn white" id="sellBtn">Créer ma boutique →</button></div><div class="dashboard"><div class="dash-top"><b>Tableau de bord vendeur</b><span>● En ligne</span></div><div class="dash-stat"><div><small>Ventes du mois</small><b>1 284 500 F</b><em>+18,4%</em></div><div><small>Commandes</small><b>126</b><em>+12</em></div></div><div class="dash-row"><span>Montre connectée</span><b>45 000 F</b><i>12 vendus</i></div><div class="dash-row"><span>Ordinateur portable</span><b>395 000 F</b><i>6 vendus</i></div><div class="chart"><i style="height:32%"></i><i style="height:50%"></i><i style="height:42%"></i><i style="height:67%"></i><i style="height:54%"></i><i style="height:82%"></i><i style="height:94%"></i></div></div></section>
 <section class="section how"><div class="section-head"><div><span class="kicker">SIMPLE</span><h2>Comment ça marche ?</h2></div></div><div class="steps"><div><b>01</b><span>🔎</span><h3>Trouvez</h3><p>Recherchez un produit ou une boutique.</p></div><div><b>02</b><span>🛒</span><h3>Commandez</h3><p>Ajoutez au panier et confirmez votre commande.</p></div><div><b>03</b><span>💳</span><h3>Payez</h3><p>Utilisez un moyen de paiement disponible.</p></div><div><b>04</b><span>🚚</span><h3>Recevez</h3><p>Le vendeur prépare et livre selon les modalités.</p></div></div></section>
 <section class="cta"><div><span>🇹🇬</span><h2>Construisons le commerce togolais de demain.</h2><p>Une vitrine digitale pour les vendeurs, une expérience simple pour les clients.</p></div><button class="btn primary" id="ctaSell">Commencer maintenant</button></section>
 </main>
 <footer><div class="foot-brand"><a class="brand" href="#accueil"><span class="brandmark">TM</span><span><b>TOGO</b><strong>MARKET</strong></span></a><p>La marketplace togolaise pour acheter, vendre et développer son activité en ligne.</p></div><div><b>Marketplace</b><a href="#produits">Produits</a><a href="#categories">Catégories</a><a href="#boutiques">Boutiques</a></div><div><b>Vendeurs</b><a href="#vendre">Ouvrir une boutique</a><a href="#vendre">Espace vendeur</a><a href="#vendre">Tarifs</a></div><div><b>Contact</b><a href="tel:+22872138215">📞 +228 72 13 82 15</a><a href="https://wa.me/22896894394" target="_blank">💬 WhatsApp +228 96 89 43 94</a><span>🇹🇬 Lomé, Togo</span></div></footer><div class="copyright">© 2026 TOGO MARKET · Marketplace togolaise · Tous droits réservés</div>
-<div class="overlay" id="overlay"></div><aside class="cart" id="cart"><div class="cart-head"><h3>Votre panier</h3><button id="closeCart">×</button></div><div id="cartItems"></div><div class="cart-foot"><div><span>Sous-total</span><b id="cartTotal">0 F CFA</b></div><button class="btn primary full" id="orderBtn">Commander sur WhatsApp</button></div></aside>
-<div class="modal" id="modal"><div class="modal-box"><button class="modal-close" id="modalClose">×</button><div class="modal-icon">🏪</div><h2>Ouvrir une boutique</h2><p>Créez votre vitrine et présentez vos produits aux acheteurs de TOGO MARKET.</p><label>Nom de votre boutique<input id="shopName" placeholder="Ex. Boutique Cyril"></label><label>Votre activité<select><option>Électronique</option><option>Mode</option><option>Maison</option><option>Informatique</option><option>Immobilier</option></select></label><button class="btn primary full" id="shopSubmit">Demander l'ouverture →</button><small>La création d'une vraie boutique connectée nécessitera ensuite le système de comptes et la base de données.</small></div></div>
+<div class="overlay" id="overlay"></div><aside class="cart" id="cart"><div class="cart-head"><h3>Votre panier</h3><button id="closeCart">×</button></div><div id="cartItems"></div><div class="cart-foot"><div class="pay-methods"><span>Mode de paiement</span><div class="pay-options"><label class="payopt"><input type="radio" name="paymethod" value="livraison" checked><span>💵 À la livraison</span></label><label class="payopt"><input type="radio" name="paymethod" value="yas"><span>🟡 YAS Togo</span></label><label class="payopt"><input type="radio" name="paymethod" value="moov"><span>🔵 Moov Money</span></label></div></div><div><span>Sous-total</span><b id="cartTotal">0 F CFA</b></div><button class="btn primary full" id="orderBtn">Commander sur WhatsApp</button></div></aside>
+<div class="overlay" id="shopOverlay"></div>
+<aside class="shopview" id="shopView">
+  <div class="shopview-head">
+    <button id="closeShop">← Retour</button>
+  </div>
+  <div class="shopview-banner" id="shopBanner">
+    <div class="shopview-avatar" id="shopAvatar">TM</div>
+    <div><b id="shopViewName">Boutique</b><small id="shopViewMeta">Catégorie · Togo</small></div>
+    <a id="shopWhatsapp" class="btn primary" target="_blank">💬 Contacter</a>
+  </div>
+  <div class="shopview-grid" id="shopProductGrid"></div>
+  <p class="shopview-empty" id="shopEmpty" style="display:none">Cette boutique n'a pas encore ajouté de produits.</p>
+</aside>
+
+<div class="modal" id="modal"><div class="modal-box acc-box">
+  <button class="modal-close" id="modalClose">×</button>
+  <div class="modal-icon">👤</div>
+  <div class="acc-tabs"><button class="acc-tab active" id="tabLogin">Se connecter</button><button class="acc-tab" id="tabSignup">Créer un compte</button></div>
+
+  <div id="loginPane">
+    <h2>Content de te revoir</h2>
+    <p>Connecte-toi à ton compte vendeur TOGO MARKET.</p>
+    <label>Email<input id="loginEmail" type="email" placeholder="toi@email.com"></label>
+    <label>Mot de passe<input id="loginPass" type="password" placeholder="••••••••"></label>
+    <div class="acc-error" id="loginError"></div>
+    <button class="btn primary full" id="loginSubmit">Se connecter →</button>
+  </div>
+
+  <div id="signupPane" style="display:none">
+    <h2>Ouvrir ma boutique</h2>
+    <p>Crée ton compte vendeur pour publier tes produits sur TOGO MARKET.</p>
+    <label>Nom de votre boutique<input id="shopName" placeholder="Ex. Boutique Cyril"></label>
+    <label>Votre activité<select id="shopCat"><option value="electronics">Électronique</option><option value="fashion">Mode</option><option value="home">Maison</option><option value="computing">Informatique</option><option value="realestate">Immobilier</option></select></label>
+    <label>Téléphone (WhatsApp)<input id="shopPhone" type="tel" placeholder="+228 90 00 00 00"></label>
+    <label>Email<input id="signupEmail" type="email" placeholder="toi@email.com"></label>
+    <label>Mot de passe<input id="signupPass" type="password" placeholder="6 caractères minimum"></label>
+    <div class="acc-error" id="signupError"></div>
+    <button class="btn primary full" id="shopSubmit">Créer mon compte →</button>
+  </div>
+
+  <div id="accountPane" style="display:none">
+    <h2 id="welcomeName">Bonjour</h2>
+    <p id="welcomeShop">Ta boutique est active sur TOGO MARKET.</p>
+    <div class="acc-info" id="acc-info"></div>
+    <div class="acc-subtabs"><button class="acc-subtab active" id="subInfo">Ma boutique</button><button class="acc-subtab" id="subProducts">Mes produits</button></div>
+
+    <div id="myShopPane">
+      <button class="btn ghost full" id="viewMyShop">👁 Voir ma boutique publique</button>
+      <button class="btn ghost full" id="logoutBtn">Se déconnecter</button>
+    </div>
+
+    <div id="myProductsPane" style="display:none">
+      <div id="myProductList"></div>
+      <button class="btn primary full" id="openAddProduct">+ Ajouter un produit</button>
+      <div id="addProductForm" style="display:none">
+        <label>Photo du produit<input type="file" id="prodPhoto" accept="image/*"></label>
+        <div id="prodPreview"></div>
+        <label>Nom du produit<input id="prodName" placeholder="Ex. Sac à main en cuir"></label>
+        <label>Prix (F CFA)<input id="prodPrice" type="number" placeholder="Ex. 15000"></label>
+        <label>Catégorie<select id="prodCat"><option value="electronics">Électronique</option><option value="fashion">Mode</option><option value="home">Maison</option><option value="computing">Informatique</option><option value="realestate">Immobilier</option></select></label>
+        <div class="acc-error" id="prodError"></div>
+        <button class="btn primary full" id="prodSubmit">Publier le produit</button>
+      </div>
+    </div>
+  </div>
+
+</div></div>
 <script src="script.js"></script>
+<script type="module" src="firebase-init.js"></script>
 </body></html>
